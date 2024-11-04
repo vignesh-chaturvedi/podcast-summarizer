@@ -1,11 +1,11 @@
 import speech_recognition as sr
 import nltk
+import os
 import requests
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.probability import FreqDist
 from gtts import gTTS
-import os
 
 # Speech-to-Text
 r = sr.Recognizer()
